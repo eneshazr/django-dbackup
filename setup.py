@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name="dbackup",
-    version="1.0.0",
+    version="1.0.1",
     description="A Django application for UTF-8 database backups.",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="Enes HAZIR",
-    author_email="your.email@example.com",
+    author_email="iletisim@eneshazir.com",
     url="https://github.com/eneshazr/django-dbackup",
     packages=find_packages(),
     include_package_data=True,
